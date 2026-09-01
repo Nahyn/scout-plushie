@@ -6,6 +6,8 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -19,6 +21,13 @@ public class BasePlushieBlock extends HorizontalDirectionalBlock {
 	public BasePlushieBlock(Properties properties) {
 		super(properties);
 	}
+
+	public static final Properties PROPERTIES = BlockBehaviour.Properties.of()
+			.noOcclusion()
+			.destroyTime(0.2f)
+			.explosionResistance(256.0f)
+			.sound(SoundType.WOOL)
+	;
 
 	protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
 		return SHAPE;

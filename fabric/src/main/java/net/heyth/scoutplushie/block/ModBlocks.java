@@ -16,12 +16,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
 	public static final Block BASE_SCOUT_PLUSHIE_BLOCK = registerBlock(
 		"scout_plushie_base",
-				new BasePlushieBlock(BlockBehaviour.Properties.of()
-				.noOcclusion()
-				.destroyTime(0.2f)
-				.explosionResistance(256.0f)
-				.sound(SoundType.WOOL)
-		)
+			new BasePlushieBlock(BasePlushieBlock.PROPERTIES)
 	);
 
 
