@@ -16,7 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "net.heyth.scoutplushie.ExampleMod"
+            "net.heyth.scoutplushie.ScoutPlushie"
+        ],
+        "client": [
+            "net.heyth.scoutplushie.ScoutPlushieClient"
         ]
     },
     "mixins": [

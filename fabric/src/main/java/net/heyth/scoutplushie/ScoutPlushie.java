@@ -1,8 +1,15 @@
 package net.heyth.scoutplushie;
 
 import net.fabricmc.api.ModInitializer;
+import net.heyth.scoutplushie.block.BasePlushieBlock;
+import net.heyth.scoutplushie.block.ModBlocks;
+import net.heyth.scoutplushie.item.ModItems;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 
-public class ExampleMod implements ModInitializer {
+public class ScoutPlushie implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -14,5 +21,6 @@ public class ExampleMod implements ModInitializer {
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
+
     }
 }

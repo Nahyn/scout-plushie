@@ -1,0 +1,12 @@
+{
+  "itemGroup.scoutplushie": "Scout Plushie Mod",
+  "block.scoutplushie.scout_plushie_base": "Scout Plushie",
+
+  "scoutplushie.configuration.title": "Example Mod Configs",
+  "scoutplushie.configuration.section.scoutplushie.common.toml": "Example Mod Configs",
+  "scoutplushie.configuration.section.scoutplushie.common.toml.title": "Example Mod Configs",
+  "scoutplushie.configuration.items": "Item List",
+  "scoutplushie.configuration.logDirtBlock": "Log Dirt Block",
+  "scoutplushie.configuration.magicNumberIntroduction": "Magic Number Text",
+  "scoutplushie.configuration.magicNumber": "Magic Number"
+}

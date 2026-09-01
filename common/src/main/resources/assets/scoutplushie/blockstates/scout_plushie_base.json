@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "scoutplushie:block/scout_plushie_base",
+      "cullface":  []
+    },
+    "facing=east": {
+      "model": "scoutplushie:block/scout_plushie_base",
+      "cullface":  [],
+      "y": 90
+    },
+    "facing=south": {
+      "model": "scoutplushie:block/scout_plushie_base",
+      "cullface":  [],
+      "y": 180
+    },
+    "facing=west": {
+      "model": "scoutplushie:block/scout_plushie_base",
+      "cullface":  [],
+      "y": 270
+    }
+  }
+}
