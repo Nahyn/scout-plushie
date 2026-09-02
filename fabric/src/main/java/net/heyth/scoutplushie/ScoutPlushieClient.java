@@ -10,5 +10,6 @@ public class ScoutPlushieClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SCOUT_PLUSHIE_BASE_BLOCK, RenderType.cutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SCOUT_PLUSHIE_LAMP_BLOCK, RenderType.cutout());
 	}
 }

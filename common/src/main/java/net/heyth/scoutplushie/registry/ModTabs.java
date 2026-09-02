@@ -17,7 +17,7 @@ public class ModTabs {
 			.title(Component.literal(Constants.MOD_NAME))
 			.displayItems(((itemDisplayParameters, output) -> {
 				output.accept(ModBlocks.SCOUT_PLUSHIE_BASE_BLOCK);
-				// output.accept(ModBlocks.SCOUT_PLUSHIE_LAMP_BLOCK);
+				output.accept(ModBlocks.SCOUT_PLUSHIE_LAMP_BLOCK);
 			}))
 			.build()
 	;

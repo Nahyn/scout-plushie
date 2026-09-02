@@ -10,7 +10,7 @@ import java.util.function.BiConsumer;
 
 public class ModItems {
 	public static final Item SCOUT_PLUSHIE_BASE_BLOCK = new BlockItem(ModBlocks.SCOUT_PLUSHIE_BASE_BLOCK, new Item.Properties());
-	//public static final Item SCOUT_PLUSHIE_LAMP_BLOCK = new BlockItem(ModBlocks.SCOUT_PLUSHIE_LAMP_BLOCK, new Item.Properties());
+	public static final Item SCOUT_PLUSHIE_LAMP_BLOCK = new BlockItem(ModBlocks.SCOUT_PLUSHIE_LAMP_BLOCK, new Item.Properties());
 
 	static {
 		Constants.LOG.info("DEFINED ITEMS");
@@ -22,11 +22,10 @@ public class ModItems {
 			SCOUT_PLUSHIE_BASE_BLOCK,
 			ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scout_plushie_base")
 		);
-		/*
+
 		consumer.accept(
 			SCOUT_PLUSHIE_LAMP_BLOCK,
 			ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scout_plushie_lamp")
 		);
-		 */
 	}
 }

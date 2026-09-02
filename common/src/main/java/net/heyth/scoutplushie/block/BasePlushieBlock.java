@@ -26,8 +26,7 @@ import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public class BasePlushieBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
 	public static final MapCodec<BasePlushieBlock> CODEC = simpleCodec(BasePlushieBlock::new);

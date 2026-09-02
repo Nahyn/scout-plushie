@@ -1,0 +1,8 @@
+{
+	"parent": "scoutplushie:block/scout_plushie_base",
+	"textures": {
+		"0": "scoutplushie:block/scout_plushie_base",
+		"1": "scoutplushie:block/halo_high",
+		"particle": "scoutplushie:block/scout_plushie_base"
+	}
+}

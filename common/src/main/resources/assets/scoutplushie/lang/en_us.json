@@ -1,6 +1,7 @@
 {
   "itemGroup.scoutplushie": "Scout Plushie Mod",
   "block.scoutplushie.scout_plushie_base": "Scout Plushie",
+  "block.scoutplushie.scout_plushie_lamp": "Scout Plushie Lamp",
 
   "scoutplushie.configuration.title": "Example Mod Configs",
   "scoutplushie.configuration.section.scoutplushie.common.toml": "Example Mod Configs",

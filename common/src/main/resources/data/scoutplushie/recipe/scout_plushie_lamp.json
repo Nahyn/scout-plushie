@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "P"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "P": {
+      "item": "scoutplushie:scout_plushie_base"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "scoutplushie:scout_plushie_lamp"
+  }
+}

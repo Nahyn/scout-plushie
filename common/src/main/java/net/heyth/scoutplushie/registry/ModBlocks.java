@@ -11,7 +11,7 @@ import java.util.function.BiConsumer;
 
 public class ModBlocks {
 	public static final Block SCOUT_PLUSHIE_BASE_BLOCK = new BasePlushieBlock(BlockBehaviour.Properties.of());
-	//public static final Block SCOUT_PLUSHIE_LAMP_BLOCK = new LightPlushieBlock(BlockBehaviour.Properties.of());
+	public static final Block SCOUT_PLUSHIE_LAMP_BLOCK = new LightPlushieBlock(BlockBehaviour.Properties.of());
 
 	static {
 		Constants.LOG.info("DEFINED BLOCKS");
@@ -24,11 +24,10 @@ public class ModBlocks {
 			SCOUT_PLUSHIE_BASE_BLOCK,
 			ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scout_plushie_base")
 		);
-		/*
+
 		consumer.accept(
 			SCOUT_PLUSHIE_LAMP_BLOCK,
 			ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "scout_plushie_lamp")
 		);
-		 */
 	}
 }
