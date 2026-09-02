@@ -1,43 +1,48 @@
 {
   "variants": {
-    "facing=north,lit=false": {
+    "facing=north,level=0": {
       "model": "scoutplushie:block/scout_plushie_lamp_off",
       "cullface":  []
     },
-    "facing=east,lit=false": {
+    "facing=east,level=0": {
       "model": "scoutplushie:block/scout_plushie_lamp_off",
       "cullface":  [],
       "y": 90
     },
-    "facing=south,lit=false": {
+    "facing=south,level=0": {
       "model": "scoutplushie:block/scout_plushie_lamp_off",
       "cullface":  [],
       "y": 180
     },
-    "facing=west,lit=false": {
+    "facing=west,level=0": {
       "model": "scoutplushie:block/scout_plushie_lamp_off",
       "cullface":  [],
       "y": 270
     },
 
-    "facing=north,lit=true": {
-      "model": "scoutplushie:block/scout_plushie_lamp_on",
-      "cullface":  []
-    },
-    "facing=east,lit=true": {
-      "model": "scoutplushie:block/scout_plushie_lamp_on",
-      "cullface":  [],
-      "y": 90
-    },
-    "facing=south,lit=true": {
-      "model": "scoutplushie:block/scout_plushie_lamp_on",
-      "cullface":  [],
-      "y": 180
-    },
-    "facing=west,lit=true": {
-      "model": "scoutplushie:block/scout_plushie_lamp_on",
-      "cullface":  [],
-      "y": 270
-    }
+    "facing=north,level=3": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [] },
+    "facing=east,level=3": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 90 },
+    "facing=south,level=3": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 180 },
+    "facing=west,level=3": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 270 },
+
+    "facing=north,level=6": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [] },
+    "facing=east,level=6": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 90 },
+    "facing=south,level=6": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 180 },
+    "facing=west,level=6": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 270 },
+
+    "facing=north,level=9": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [] },
+    "facing=east,level=9": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 90 },
+    "facing=south,level=9": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 180 },
+    "facing=west,level=9": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 270 },
+
+    "facing=north,level=12": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [] },
+    "facing=east,level=12": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 90 },
+    "facing=south,level=12": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 180 },
+    "facing=west,level=12": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 270 },
+
+    "facing=north,level=15": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [] },
+    "facing=east,level=15": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 90 },
+    "facing=south,level=15": {"model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 180 },
+    "facing=west,level=15": { "model": "scoutplushie:block/scout_plushie_lamp_on", "cullface":  [], "y": 270 }
   }
 }
